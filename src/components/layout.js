@@ -8,6 +8,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Button } from "@chakra-ui/react"
 
 import Header from "./header"
 import "./layout.css"
@@ -42,6 +43,7 @@ const Layout = ({ children }) => {
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <Button> HI my name tom hehe</Button>
         </footer>
       </div>
     </>
